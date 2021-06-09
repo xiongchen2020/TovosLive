@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_na"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:background="@color/light_toobar_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <RadioGroup
+            android:layout_alignParentBottom="true"
+            android:id="@+id/hub_rg"
+            android:orientation="horizontal"
+            style="@style/tovos_ll_style">
+
+            <RadioButton
+                android:layout_weight="1"
+                android:id="@+id/live_list_rb"
+                style="@style/radiobutton_style"
+                android:text="在线飞机"
+                android:drawableTop="@mipmap/flight_record"
+                />
+
+            <RadioButton
+                android:layout_weight="1"
+                android:id="@+id/data_all_rb"
+                style="@style/radiobutton_style"
+                android:text="数据统计"
+                android:drawableTop="@mipmap/task"
+                />
+
+
+
+            <RadioButton
+                android:layout_weight="1"
+                android:id="@+id/team_rb"
+                style="@style/radiobutton_style"
+                android:text="团队管理"
+                android:drawableTop="@mipmap/map"
+                />
+
+
+            <RadioButton
+                android:layout_weight="1"
+                android:id="@+id/rt_set"
+                style="@style/radiobutton_style"
+                android:text="设置"
+                android:drawableTop="@mipmap/set"
+                />
+
+        </RadioGroup>
+
+        <FrameLayout
+            android:layout_below="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fl_content"
+            android:layout_above="@+id/hub_rg">
+
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:background="@color/light_toobar_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+
+        <include layout="@layout/team_list_layout" />
+
+    </LinearLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+

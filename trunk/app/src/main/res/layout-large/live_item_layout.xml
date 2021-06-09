@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/live_item_ll"
+    style="@style/hub_ll_style"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/drones">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/drone_sn"
+            style="@style/list_item_tv"
+            android:layout_marginTop="5dp"
+            android:text="飞机编码:" />
+
+        <TextView
+            android:id="@+id/drone_name"
+            style="@style/list_item_tv"
+            android:layout_marginTop="5dp"
+            android:text="飞机名称:" />
+
+        <TextView
+            android:id="@+id/drone_type"
+            style="@style/list_item_tv"
+            android:layout_marginTop="5dp"
+            android:text="飞机类别:" />
+
+
+        <TextView
+            android:id="@+id/drone_team"
+            style="@style/list_item_tv"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="所在分组:" />
+
+        <TextView
+            android:id="@+id/tv_user"
+            style="@style/list_item_tv"
+            android:layout_marginBottom="5dp"
+            android:text="操作人员："
+
+            />
+
+        <TextView
+            android:id="@+id/live_status"
+            style="@style/list_item_tv"
+            android:layout_marginBottom="5dp"
+            android:text="直播状态：" />
+    </LinearLayout>
+
+</LinearLayout>

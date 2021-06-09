@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/live_item_ll"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    style="@style/hub_ll_style"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginBottom="5dp">
+
+    <ImageView
+       android:layout_marginTop="10dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/head">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/user_name"
+            android:text="昵称:"
+            style="@style/list_item_tv"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/user_account"
+            android:text="账户:"
+            style="@style/list_item_tv"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/user_role"
+            android:text="角色 :"
+            style="@style/list_item_tv"
+            android:layout_marginBottom="5dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

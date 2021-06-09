@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@color/light_toobar_bg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/headimg"
+            android:layout_centerHorizontal="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/head">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/headimg"
+            android:layout_centerHorizontal="true"
+            android:text="登录用户"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rl_unlogin"
+        style="@style/tovos_ll_style"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="40dp">
+
+        <TextView
+            android:id="@+id/tv_unlogin"
+            style="@style/hub_tv_style"
+            android:layout_marginLeft="11dp"
+            android:layout_centerInParent="true"
+            android:text="注销登录"
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+</RelativeLayout>

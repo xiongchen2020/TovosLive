@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/live_item_ll"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    style="@style/hub_ll_style"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp">
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/drones">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/drone_name"
+            android:text="飞机名称:"
+            style="@style/base_style"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/drone_type"
+            android:text="飞机类别:"
+            style="@style/base_style"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/drone_sn"
+            android:text="飞机编码:"
+            style="@style/base_style"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:id="@+id/record_rl"
+    android:layout_marginTop="5dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+
+    android:background="@drawable/selected_set_bg_shape">
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/welecome_flight"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >
+    <TextView
+        android:id="@+id/tv_team"
+        style="@style/list_item_tv"
+        android:text="团队名称：Tovos山东测试组"
+
+
+       />
+    <TextView
+        android:id="@+id/tv_user"
+        style="@style/list_item_tv"
+        android:text="操作人员：李建"
+        android:paddingTop="5dp"
+
+     />
+    <TextView
+        android:id="@+id/tv_type"
+        style="@style/list_item_tv"
+        android:text="设备类型：M210 RTK V2"
+        android:paddingTop="5dp"
+
+    />
+    <TextView
+        android:id="@+id/tv_sn"
+        style="@style/list_item_tv"
+        android:text="飞机编码:1DADGB700100HZ"
+        android:paddingTop="5dp"
+       />
+    <TextView
+        android:id="@+id/tv_time"
+        android:visibility="gone"
+        style="@style/list_item_tv"
+        android:text="起飞时间:2020-09-10 11:51:39"
+        android:paddingTop="5dp"
+      />
+    <TextView
+        android:id="@+id/tv_height"
+        style="@style/list_item_tv"
+        android:text="最大高度:39.9米"
+        android:paddingTop="5dp"
+
+      />
+
+    <TextView
+        android:id="@+id/tv_flight_time"
+        style="@style/list_item_tv"
+        android:text="飞行时长:0分钟 10秒"
+        android:paddingTop="5dp"
+        />
+    <TextView
+        android:id="@+id/tv_flight_distance"
+        style="@style/list_item_tv"
+        android:text="飞行距离:129.9米"
+        android:paddingTop="5dp"
+       />
+
+    <TextView
+        android:id="@+id/tv_flight_lng_lat"
+        android:visibility="gone"
+        style="@style/list_item_tv"
+        android:text="起飞地址:36.983482,119.032070"
+    android:paddingTop="5dp"
+
+        />
+    </LinearLayout>
+</LinearLayout>

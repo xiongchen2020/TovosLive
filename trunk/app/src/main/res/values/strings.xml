@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tovos Live</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">账号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录或注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="welcome">"登录成功 !"</string>
+    <string name="invalid_username">用户名无效</string>
+    <string name="invalid_password">密码无效</string>
+    <string name="login_failed">"登录失败"</string>
+    <string name="drones_sn">飞机S&#160;N&#160;</string>
+    <string name="open_drawer">打开菜单</string>
+    <string name="close_drawer">关闭菜单</string>
+    <string name="play_url_path">http://222.173.32.146:10080</string>
+    <string name="hub_url">http://222.173.32.146:10080/fhsdk/v3/</string>
+</resources>
